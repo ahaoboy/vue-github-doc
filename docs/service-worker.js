@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
-
 importScripts(
-  "precache-manifest.9ac96e0a27d9f5b7f7373e8a0b8884e2.js"
+  "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue-github-doc"});
+importScripts("precache-manifest.7f4c1e75a45cb530be304655bed34525.js");
+
+workbox.core.setCacheNameDetails({ prefix: "vue-github-doc" });
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
