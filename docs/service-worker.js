@@ -15,7 +15,7 @@ importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js"
 );
 
-importScripts("precache-manifest.09a37771ca051bc2ed8ef42e2e2f0f18.js");
+importScripts("precache-manifest.779034a2aba22e2bc2314dfe1621637f.js");
 
 workbox.core.setCacheNameDetails({ prefix: "vue-github-doc" });
 
