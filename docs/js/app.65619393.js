@@ -141,12 +141,6 @@
       o = r.n(n);
     o.a;
   },
-  "53ee": function(e, t, r) {
-    "use strict";
-    var n = r("ff9f"),
-      o = r.n(n);
-    o.a;
-  },
   "56d7": function(e, t, r) {
     "use strict";
     r.r(t);
@@ -346,8 +340,8 @@
       m = (r("034f"), r("2877")),
       _ = Object(m["a"])(b, a, l, !1, null, null, null),
       w = _.exports,
-      y = r("8c4f"),
-      j = function() {
+      j = r("8c4f"),
+      y = function() {
         var e = this,
           t = e.$createElement,
           n = e._self._c || t;
@@ -595,43 +589,17 @@
             ])
           ]);
         }
-      ];
-    r("ac4d"), r("8a81"), r("ac6a");
-    u.a.get("/data/json/stu.json").then(function(e) {
-      var t = e.data;
-      console.log(t);
-      var r = !0,
-        n = !1,
-        o = void 0;
-      try {
-        for (
-          var a, l = t[Symbol.iterator]();
-          !(r = (a = l.next()).done);
-          r = !0
-        ) {
-          var s = a.value;
-          console.log(s);
-        }
-      } catch (i) {
-        (n = !0), (o = i);
-      } finally {
-        try {
-          r || null == l.return || l.return();
-        } finally {
-          if (n) throw o;
-        }
-      }
-    });
-    var E = { name: "HelloWorld", props: { msg: String } },
-      S = E,
-      P = (r("53ee"), Object(m["a"])(S, x, O, !1, null, "1e20a206", null)),
-      C = P.exports,
+      ],
+      E = { name: "HelloWorld", props: { msg: String } },
+      P = E,
+      S = (r("f674"), Object(m["a"])(P, x, O, !1, null, "6a36ff77", null)),
+      C = S.exports,
       $ = { name: "home", components: { HelloWorld: C } },
       L = $,
-      T = Object(m["a"])(L, j, k, !1, null, null, null),
+      T = Object(m["a"])(L, y, k, !1, null, null, null),
       A = T.exports;
-    o["default"].use(y["a"]);
-    var M = new y["a"]({
+    o["default"].use(j["a"]);
+    var M = new j["a"]({
         mode: "history",
         base: "",
         routes: [
@@ -691,6 +659,12 @@
   cf05: function(e, t, r) {
     e.exports = r.p + "img/logo.82b9c7a5.png";
   },
-  ff9f: function(e, t, r) {}
+  d726: function(e, t, r) {},
+  f674: function(e, t, r) {
+    "use strict";
+    var n = r("d726"),
+      o = r.n(n);
+    o.a;
+  }
 });
-//# sourceMappingURL=app.a424b1be.js.map
+//# sourceMappingURL=app.65619393.js.map
